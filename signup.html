@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zoom! | Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div id="site-container">
+      <div id="site-content">
+        <header id="header">
+          <h1 class="sr-only">Zoom!</h1>
+        </header>
+        <main id="main">
+          <div class="spacer"></div>
+          <div id="signup-form">
+            <form action="" method="POST">
+              <h2>
+                Sign up to start using
+                <span class="bold">Zoom!</span>
+              </h2>
+              <label class="sr-only" for="input-firstname">First Name:</label>
+              <input type="text" name="firstname" placeholder="First Name" />
+              <br />
+              <label class="sr-only" for="input-lastname">Last Name:</label>
+              <input type="text" name="lastname" placeholder="Last Name" />
+              <br />
+              <label class="sr-only" for="input-email">Email:</label>
+              <input type="email" name="email" placeholder="Email" />
+              <br />
+              <label class="sr-only" for="input-username">Username:</label>
+              <input type="text" name="username" placeholder="Username" />
+              <br />
+              <label class="sr-only" for="input-password">Password:</label>
+              <input type="password" name="password" placeholder="Password" />
+              <br />
+              <label class="sr-only" for="input-password-confirmation">
+                Confirm Password:
+              </label>
+              <input
+                type="password"
+                name="password-confirmation"
+                placeholder="Confirm Password"
+              />
+              <br />
+              <button type="submit" name="login">Sign Up</button>
+              <a class="sign-in-link" href="login.html">
+                Already have an account? Log In
+              </a>
+            </form>
+            <div id="form-errors"></div>
+          </div>
+          <div class="spacer"></div>
+        </main>
+        <footer id="footer">
+          <p>
+            Copyright &copy;
+            <span class="bold">Zoom!</span>
+            2019. All rights reserved.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
